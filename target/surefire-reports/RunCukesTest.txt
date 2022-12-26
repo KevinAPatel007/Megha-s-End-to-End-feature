@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 3, Time elapsed: 4.933 s <<< FAILURE! - in RunCukesTest
+When I click on the "Log in"(Scenario: Validate login page)  Time elapsed: 0.009 s  <<< ERROR!
+cucumber.runtime.CucumberException: Failed to instantiate class step_def.loginstep
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.InvalidSelectorException: 
+Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'Kevins-MacBook-Pro.local', ip: 'fe80:0:0:0:1c39:5f93:927e:b0f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.2', java.version: '1.8.0_321'
+Driver info: driver.version: unknown
+
+Scenario: Validate login page  Time elapsed: 0.011 s  <<< ERROR!
+cucumber.runtime.CucumberException: Failed to instantiate class step_def.loginstep
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.InvalidSelectorException: 
+Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'Kevins-MacBook-Pro.local', ip: 'fe80:0:0:0:1c39:5f93:927e:b0f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.2', java.version: '1.8.0_321'
+Driver info: driver.version: unknown
+
